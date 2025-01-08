@@ -1,0 +1,158 @@
+/* nav style*/
+
+
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.f-tag{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav>ul>li{
+    list-style: none;
+    margin-right:  50px;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+span{
+    color: #FD6E0A;
+}
+.btn{
+    width: auto;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.btn2{
+    width: auto;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: aliceblue;
+    color:  #FD6E0A;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px solid #FD6E0A;
+}
+
+/* bannar style */
+
+header>.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+}
+.bannar-cont .bn-h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.bannar-cont .bn-h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.bannar-cont .bn-p{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* main */
+main{
+    margin-top: 110px;
+}
+section{
+    
+    
+    
+    
+}
+.about{
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 100px 120px;
+    text-align: center;
+    background-color:#FFF8F3 ;
+    border-radius: 8px;
+}
+.hthree{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.about p{
+    font-size: 18px;
+    color: #757575;
+}
+.about .child{
+    border: 1px solid rgb(70, 68, 68);
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.i-title{
+    font-size: 18px;
+    color: #757575;
+}
+.i-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+
+/* what i do section*/
+
+.wid{
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px 120px;
+    text-align: center;
+}
+.wid-item img{
+    width: 35px;
+    height: 35px;
+} 
+.wid-item{
+    width: 202px;
+    text-align:left ;
+    background-color: aliceblue;
+    padding:12px 15px ;
+    border-radius: 8px;
+    
+}
+.wid-items{
+    display: flex;
+    justify-content:space-around;
+}
