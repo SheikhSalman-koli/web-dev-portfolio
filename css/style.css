@@ -172,3 +172,64 @@ main{
     align-items: center;
     justify-content: center;
 }
+.btn-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn-third .btn-l{
+    width: auto;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 15px;
+    
+    
+}
+
+
+/* footer-area */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:#FFF8F3 ;
+    padding: 90px 150px;
+    margin-top: 100px;
+}
+.footer-cont{
+   padding: 30px;
+}
+.footer-cont p{
+    font-size: 15px;
+    line-break: ;
+}
+.footer-form{
+    padding: 30px;
+}
+.footer-form input{
+    display:block;
+    width: 240px;
+    height:40px ;
+    margin-bottom: 15px;
+    border-style: none;
+    padding-left: 10px;
+}
+.footer-form textarea{
+    margin-bottom: 12px;
+    border-style: none;
+    width: 240px;
+    padding: 10px 0px 0px 10px;
+}
+.footer-form input[type="submit"]{
+    width: 100px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 15px;
+}
