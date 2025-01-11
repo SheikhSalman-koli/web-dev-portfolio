@@ -88,15 +88,11 @@ header>.bannar{
 /* main */
 main{
     margin-top: 110px;
+    padding: 0 400px;
 }
-section{
-    
-    
-    
-    
-}
+
 .about{
-    width: 990px;
+
     height: auto;
     margin: 0 auto;
     box-sizing: border-box;
@@ -133,26 +129,46 @@ section{
 
 /* what i do section*/
 
+.tow{
+    margin-top: 90px;
+}
 .wid{
-    width: 990px;
+    /*width: 990px;*/
     height: auto;
     margin: 0 auto;
-    padding: 100px 120px;
+    /*padding: 100px 120px;*/
     text-align: center;
+    
 }
 .wid-item img{
     width: 35px;
     height: 35px;
 } 
 .wid-item{
-    width: 202px;
+    /*width: 202px;*/
     text-align:left ;
-    background-color: aliceblue;
-    padding:12px 15px ;
+    box-shadow:0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+    padding:15px 18px ;
     border-radius: 8px;
-    
+   
 }
 .wid-items{
     display: flex;
     justify-content:space-around;
+    margin-top: 25px;
+    gap: 12px;
+}
+
+/* resume */
+.third{
+    margin-top: 150px;
+}
+.third>h1{
+    text-align: center;
+}
+.resume-cont{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
