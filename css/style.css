@@ -283,8 +283,10 @@ footer{
         width: 50%;
      }
      nav{
-        justify-content: space-between;
-        margin: 0 0 0 10px;
+         margin: 0 0 0 10px;
+    }
+    nav>ul>li{
+        margin-right:15px;
     }
     .bannar-cont .bn-h4{
         font-size: 25px;
@@ -328,5 +330,10 @@ footer{
         font-weight: bold;
         font-size: 10px;
         border: 1px solid #FD6E0A;
+    }
+    .f-tag{
+        background-image:url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position:bottom right;
     }
 }
