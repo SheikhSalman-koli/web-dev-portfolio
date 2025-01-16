@@ -88,7 +88,7 @@ header>.bannar{
 /* main */
 main{
     margin-top: 110px;
-    padding: 0 400px;
+    padding: 0 180px;
 }
 
 .about{
@@ -172,10 +172,16 @@ main{
     align-items: center;
     justify-content: center;
 }
+.resume-cont .tow{
+   margin-bottom: 89px;
+}
+.resume-cont .one,.tow{
+    padding: 0;
+}
 .btn-third{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+   
 }
 .btn-third .btn-l{
     width: auto;
@@ -204,7 +210,7 @@ footer{
 }
 .footer-cont p{
     font-size: 15px;
-    line-break: ;
+    
 }
 .footer-form{
     padding: 30px;
@@ -232,4 +238,94 @@ footer{
     color: aliceblue;
     font-weight: bolder;
     font-size: 15px;
+}
+
+@media screen and (max-width:576px) {
+    .wid-items,.resume-cont,footer{
+        flex-direction: column;
+    }
+    main{
+        padding: 0 30px;
+    }
+    .tow{
+        margin-top: 0;
+    }
+    .about{
+        padding: 5px 7px;
+        margin-top: 40px;
+    }
+    .about .child{
+        border-radius: 5px;
+    }
+    footer{
+        padding: 5px 10px;
+        margin-top: 40px;
+    }
+    .footer-cont,.footer-form{
+        padding: 0;
+    }
+    .third{
+        margin-top: 50px;
+    }
+    .resume-cont .tow{
+        margin-bottom: 25px;
+     }
+     header .bannar{
+        margin: 0 0 0 10px;
+     }
+     header,nav{
+        width: 98%;
+     }
+     .btn, .btn2{
+        margin-bottom: 5px;
+     }
+     .bannar .bannar-cont,.bannar img{
+        width: 50%;
+     }
+     nav{
+        justify-content: space-evenly;
+        margin: 0 0 0 10px;
+    }
+    .bannar-cont .bn-h4{
+        font-size: 25px;
+        font-weight: bold;
+        color: #474747;
+    }
+    .bannar-cont .bn-h1{
+        font-size: 45px;
+        font-weight: bold;
+        color: #181818;
+    }
+    .bannar-cont .bn-p{
+        font-size: 12px;
+        color: #757575;
+    }
+    .nav-title{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    nav>ul>li{
+        margin-left:  15px;
+    }
+    .btn{
+        width: auto;
+        padding: 8px 6px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: #FD6E0A;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .btn2{
+        width: auto;
+        padding: 8px 6px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: aliceblue;
+        color:  #FD6E0A;
+        font-weight: bold;
+        font-size: 10px;
+        border: 1px solid #FD6E0A;
+    }
 }
