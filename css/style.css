@@ -283,7 +283,7 @@ footer{
         width: 50%;
      }
      nav{
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin: 0 0 0 10px;
     }
     .bannar-cont .bn-h4{
@@ -304,8 +304,9 @@ footer{
         font-weight: 600;
         font-size: 30px;
     }
-    nav>ul>li{
-        margin-left:  15px;
+    .about-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .btn{
         width: auto;
